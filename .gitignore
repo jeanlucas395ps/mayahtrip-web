@@ -1,0 +1,26 @@
+# O framework do site ainda não está escolhido (ARCHITECTURE.md).
+# Este arquivo cobre Node, segredo e sistema. Pasta específica de
+# framework entra quando essa escolha existir.
+
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.env
+.env.*
+!.env.example
+
+.cache/
+.eslintcache
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
